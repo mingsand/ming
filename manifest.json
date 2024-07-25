@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "ming",
+    "version": "1.0",
+   
+    "content_scripts": [
+      {
+        "matches": ["https://playentry.org/community/entrystory*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
